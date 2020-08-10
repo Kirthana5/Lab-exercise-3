@@ -27,10 +27,10 @@ public class revarray {
         {
            a[i]=val.nextInt();
         }
-        System.out.println("Array:");
+        System.out.println("Array:\n");
         for(int i=0;i<n;i++)
         {
-            System.out.print(""+a[i]+" ");
+            System.out.print(a[i]+" ");
         }
         array.reverse1(a,n);
         
@@ -43,10 +43,10 @@ class array
      
      static void reverse1(int b[],int n)
     {
-        System.out.println("\nReversed array:");
+        System.out.println("\nReversed array:\n");
         for(int i=n-1;i>=0;i--)
         {
-            System.out.print(""+b[i]+" ");
+            System.out.print(b[i]+" ");
         }
         
     }
