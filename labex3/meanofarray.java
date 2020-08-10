@@ -30,7 +30,7 @@ public class meanofarray {
         System.out.println("Array:");
         for(int i=0;i<n;i++)
         {
-            System.out.print(""+a[i]+"  ");
+            System.out.print(a[i]+"  ");
         }
         arraymean.average(a,n);
        
