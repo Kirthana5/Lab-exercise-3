@@ -19,17 +19,23 @@ public class counterfunction {
         
         //1st object                          //i=10+10=20;   j=10+10=20;
         variable obj1=new variable();
+        //System.out.println(variable.i);
+        //System.out.println(obj1.j);
         System.out.println("\nObject 1:");
         obj1.increment();
         
         //12nd object                         //i=20+10=30;   j=10+10=20;
         variable obj2=new variable();
+        //System.out.println(variable.i);
+        //System.out.println(obj2.j);
         System.out.println("\nObject 2:");
         obj2.increment();
 
         
         //3rd object                          //i=30+10=40;   j=10+10=20;
         variable obj3=new variable();
+        //System.out.println(variable.i);
+        //System.out.println(obj3.j);
         System.out.println("\nObject 3:");
         obj3.increment();
 
