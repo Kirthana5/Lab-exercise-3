@@ -19,8 +19,8 @@ public class meanofarray {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner val=new Scanner(System.in);
-        System.out.println("Enter size of an array:");
         double a[]=new double[10];
+        System.out.println("Enter size of an array:");
         int n=val.nextInt();
         System.out.println("Enter the array elements:");
         for(int i=0;i<n;i++)
@@ -38,10 +38,10 @@ public class meanofarray {
     
 }
 class arraymean
-{    
+{   
+    double sum=0;
     static void average(double b[],int n)
     {
-        double sum=0;
         for(int i=n-1;i>=0;i--)
         {
           sum+=b[i];
